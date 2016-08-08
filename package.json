@@ -1,0 +1,26 @@
+{
+  "name": "github-travis-digitalocean",
+  "version": "0.0.1",
+  "description": "bootstrap for node build, test and deployment on to digitalocean",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/_mocha",
+    "test-travis": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "keywords": [
+    "travis-ci",
+    "digitalocean",
+    "deployment",
+    "node"
+  ],
+  "author": "Afees Adedamola Kolawole",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "coveralls": "2.11.9",
+    "istanbul": "0.4.2",
+    "mocha": "2.4.5",
+    "superagent": "1.8.3"
+  }
+}

@@ -1,0 +1,6 @@
+logs
+*.log
+notes.txt
+build
+node_modules
+coverage
